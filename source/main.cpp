@@ -107,6 +107,8 @@ int main(){
 	printf_notification("CHMOD RECURSIVE STARTED!");
   
 	change_permissions_recursive("/data/");
+	
+	change_permissions_recursive("/mnt/ext1/");
 
 	printf_notification("CHMOD RECURSIVE COMPLETE!");
   
